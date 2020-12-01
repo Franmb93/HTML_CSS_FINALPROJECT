@@ -1,0 +1,17 @@
+.spacer60{
+    height: 60px;
+    width: 100%;
+}
+
+.spacer10{
+    height: 10px;
+    width: 100%;
+}
+
+.background-fill{
+    width: 1927px;
+    height: 250px;
+    background-color:rgb(32, 34, 36);
+    margin-left: -10px;
+
+}

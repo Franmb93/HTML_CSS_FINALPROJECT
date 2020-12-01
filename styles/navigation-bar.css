@@ -1,0 +1,109 @@
+.navigation-wrapper{
+    height: 75px; 
+    width: 100%;
+    background-color: black;
+    background-size: 100%;
+    color: white;
+    padding: 5px 20px;
+    margin: -10px -10px 0px -10px;
+
+
+    display: grid;
+    grid-template-columns: 1fr 4fr 2.4fr;
+    align-items: center;
+}
+
+.navigation-wrapper > .left-column{
+    width: 185px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.navigation-wrapper > .left-column img{
+    height: 100%;
+    width: 135px;
+}
+
+.navigation-wrapper > .center-column{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+
+}   
+
+.navigation-wrapper > .center-column > .upper-text{
+    color: rgb(241, 197, 83);
+    font-weight: 900;
+    letter-spacing: -1px;
+} 
+
+.navigation-wrapper > .center-column > .links-wrapper{
+    display: flex;
+    justify-content: left;
+    font-size: 18px;
+    font-family: 'Lato 900', sans-serif;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link{
+    margin-right: 18px;
+    font-weight: 900;    
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .spark-button{
+    margin-left:20px;
+    color: grey;
+    font-weight: bold;
+    margin-right: 5px;    
+    font-size: 16px;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation-wrapper > .center-column > .links-wrapper > .spark-button i{
+    margin-left: 10px;
+}
+
+
+.navigation-wrapper > .right-column > .user-board-wrapper{
+    display: grid;
+    grid-template-columns: 0.85fr 0.5fr 2fr;
+    align-items: center;
+}
+
+.navigation-wrapper > .right-column > .user-board-wrapper > .create-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navigation-wrapper > .right-column > .user-board-wrapper > .create-button i{
+    font-size: 1.2em;
+    color: rgb(72, 241, 149);
+}
+
+.navigation-wrapper > .right-column > .user-board-wrapper > .lupa-icon{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-wrapper > .right-column > .user-board-wrapper > .lupa-icon i{
+    font-size: 2em;
+    color: grey;
+}
+
+.navigation-wrapper > .right-column > .user-board-wrapper > .search-log-wrapper{
+    width: 275px;
+    margin-left: -15px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+

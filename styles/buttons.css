@@ -1,0 +1,28 @@
+.btn{
+    background-color:rgb(92, 96, 102);
+    color: white;
+    font-size: 1.3em;
+    padding: 15px 25px;
+    border: 1px solid rgb(92, 96, 102);
+    border-radius: 4px;
+    outline: none;
+    font-weight: 500;
+
+    font-family: 'Lato 900', sans-serif;
+}
+
+.btn-green{
+    background-color:rgb(72, 241, 149);
+    color: black;
+    font-size: 1.35em;
+    padding: 15px 25px;
+    border: 1px solid rgb(72, 241, 149);
+    border-radius: 4px;
+    outline: none;
+    font-weight: 600;
+
+    font-family: 'Lato 900', sans-serif;
+}
+
+
+
